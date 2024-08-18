@@ -1,0 +1,18 @@
+git init
+git add .
+git commit -m "Ej: modificacion de pagina principal"
+
+git config user.email "stsv1999@hotmail.com"
+git config user.name "jacobososa"
+git branch -M main
+git remote add origin https://github.com/jacobososa/exportatiion.git
+git push -u origin main
+
+
+descargar el repositorio
+git pull
+
+actualizar el repositorio
+git add .
+git commit -m "Comentario"
+git push -u origin main
