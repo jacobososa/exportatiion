@@ -3,4 +3,4 @@ require('dotenv').config()
 
 const server = new Server() //create server instance
 
-// server.listen()
+server.listen()
